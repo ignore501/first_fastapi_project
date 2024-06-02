@@ -26,4 +26,4 @@ app.include_router(vote.router)
 
 @app.get('/')   #Decorates function to HTTP Get method
 def root():
-    return {"message": "Welcome to my API"}
+    return {"message": "Welcome to my API. Go to /docs to see the insides of this project"}
